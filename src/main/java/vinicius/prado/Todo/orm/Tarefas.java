@@ -11,7 +11,7 @@ import java.sql.Timestamp;
  */
 @Entity
 @Table(name = "tarefas")
-public class tarefas {
+public class Tarefas {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
