@@ -42,6 +42,10 @@ public class TarefasService {
             .orElseThrow(
                 () -> new RuntimeException("Nenhuma tarefa encontrada com o ID " + idTarefa));
 
+        if(tarefa.getSnConcluido() == Boolean.TRUE){
+            throw new RuntimeException("Tarefa já concluida.");
+        }
+
         tarefa.setSnConcluido(Boolean.TRUE);
 
         return tarefasRepository.save(tarefa);

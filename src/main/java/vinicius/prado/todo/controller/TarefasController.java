@@ -19,7 +19,7 @@ public class TarefasController {
     private final TarefasService tarefasService;
 
     @Autowired
-    public TarefasController(TarefasService tarefasService){
+    public TarefasController(TarefasService tarefasService) {
         this.tarefasService = tarefasService;
     }
 
@@ -28,17 +28,14 @@ public class TarefasController {
         return tarefasService.listarTarefas();
     }
 
-    @PutMapping
-    @PatchMapping("/concluir/{idTarefa}")
-    public Tarefas concluirTarefa(@PathVariable Long idTarefa){
+    @PutMapping("/concluir/{idTarefa}")
+    public Tarefas concluirTarefa(@PathVariable Long idTarefa) {
         return tarefasService.concluirTarefa(idTarefa);
     }
 
     @PostMapping
-    public Tarefas adicionarTarefa(@RequestBody Tarefas tarefa){
+    public Tarefas adicionarTarefa(@RequestBody Tarefas tarefa) {
         return tarefasService.adicionarTarefa(tarefa);
     }
-
-
 
 }
