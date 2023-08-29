@@ -1,4 +1,4 @@
-package vinicius.prado.Todo;
+package vinicius.prado.todo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

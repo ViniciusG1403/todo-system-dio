@@ -1,8 +1,8 @@
-package vinicius.prado.Todo.repositories;
+package vinicius.prado.todo.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import vinicius.prado.Todo.orm.Tarefas;
+import vinicius.prado.todo.orm.Tarefas;
 
 /**
  * @author Vinicius Gabriel

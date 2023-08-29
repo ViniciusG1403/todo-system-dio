@@ -1,9 +1,9 @@
-package vinicius.prado.Todo.service;
+package vinicius.prado.todo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vinicius.prado.Todo.orm.Tarefas;
-import vinicius.prado.Todo.repositories.TarefasRepository;
+import vinicius.prado.todo.orm.Tarefas;
+import vinicius.prado.todo.repositories.TarefasRepository;
 
 import java.util.List;
 

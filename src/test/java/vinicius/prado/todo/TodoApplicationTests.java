@@ -1,4 +1,4 @@
-package vinicius.prado.Todo;
+package vinicius.prado.todo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

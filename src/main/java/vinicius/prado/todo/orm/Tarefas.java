@@ -1,4 +1,4 @@
-package vinicius.prado.Todo.orm;
+package vinicius.prado.todo.orm;
 
 import jakarta.persistence.*;
 
